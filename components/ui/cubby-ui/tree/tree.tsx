@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Collapsible as BaseCollapsible } from "@base-ui/react/collapsible";
 import { CheckboxGroup } from "@base-ui/react/checkbox-group";
-import { Checkbox } from "@/registry/default/checkbox/checkbox";
+import { Checkbox } from "@/components/ui/cubby-ui/checkbox";
 import { ChevronRightIcon, Loader2Icon } from "lucide-react";
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";

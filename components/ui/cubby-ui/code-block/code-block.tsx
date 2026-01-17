@@ -11,22 +11,22 @@ import {
 import * as React from "react";
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { highlight } from "@/registry/default/code-block/lib/shiki-shared";
-import { stripDiffMarker } from "@/registry/default/code-block/lib/transformers/utils";
+import { highlight } from "@/components/ui/cubby-ui/code-block/lib/shiki-shared";
+import { stripDiffMarker } from "@/components/ui/cubby-ui/code-block/lib/transformers/utils";
 import { cn } from "@/lib/utils";
 import { Terminal } from "lucide-react";
-import { CopyButton } from "@/registry/default/copy-button/copy-button";
+import { CopyButton } from "@/components/ui/cubby-ui/copy-button/copy-button";
 import {
   SiTypescript,
   SiJavascript,
   SiPython,
 } from "@icons-pack/react-simple-icons";
 import type { BundledLanguage } from "shiki/langs";
-import { Tabs, TabsList, TabsTrigger } from "@/registry/default/tabs/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/cubby-ui/tabs";
 import {
   ScrollArea,
   type FadeEdges,
-} from "@/registry/default/scroll-area/scroll-area";
+} from "@/components/ui/cubby-ui/scroll-area/scroll-area";
 
 // Context for sharing code block state
 interface CodeBlockContextValue {

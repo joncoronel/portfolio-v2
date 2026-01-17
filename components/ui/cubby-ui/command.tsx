@@ -9,11 +9,11 @@ import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@/registry/default/input-group/input-group";
+} from "@/components/ui/cubby-ui/input-group";
 import {
   ScrollArea,
   type ScrollAreaProps,
-} from "@/registry/default/scroll-area/scroll-area";
+} from "@/components/ui/cubby-ui/scroll-area/scroll-area";
 
 import { cn } from "@/lib/utils";
 

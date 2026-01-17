@@ -16,7 +16,7 @@ import {
   Cancel01Icon,
 } from "@hugeicons/core-free-icons";
 import { cn } from "@/lib/utils";
-import { buttonVariants } from "@/registry/default/button/button";
+import { buttonVariants } from "@/components/ui/cubby-ui/button";
 import "./toast.css";
 
 // Module-level managers

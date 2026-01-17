@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Button } from "@/registry/default/button/button";
+import { Button } from "@/components/ui/cubby-ui/button";
 import { Copy, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { copyToClipboard } from "@/registry/default/copy-button/lib/copy-to-clipboard";
+import { copyToClipboard } from "@/components/ui/cubby-ui/copy-button/lib/copy-to-clipboard";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { Copy01Icon, Tick02Icon } from "@hugeicons/core-free-icons";
 

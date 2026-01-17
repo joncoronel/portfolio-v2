@@ -3,11 +3,11 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 import { X, CheckIcon, ChevronDown } from "lucide-react";
-import { Label } from "@/registry/default/label/label";
+import { Label } from "@/components/ui/cubby-ui/label";
 import {
   ScrollArea,
   type ScrollAreaProps,
-} from "@/registry/default/scroll-area/scroll-area";
+} from "@/components/ui/cubby-ui/scroll-area/scroll-area";
 import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 
 const useFilter = BaseCombobox.useFilter;

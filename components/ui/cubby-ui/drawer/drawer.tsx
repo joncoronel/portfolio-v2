@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 import {
   ScrollArea,
   type ScrollAreaProps,
-} from "@/registry/default/scroll-area/scroll-area";
+} from "@/components/ui/cubby-ui/scroll-area/scroll-area";
 
 // Drawer-specific CSS animations (scroll-driven animations for progressive enhancement)
 import "./drawer.css";

@@ -2,13 +2,13 @@ import * as React from "react";
 import dayjs from "dayjs";
 import { CalendarIcon, ChevronsUpDownIcon } from "lucide-react";
 
-import { Button } from "@/registry/default/button/button";
-import { Calendar } from "@/registry/default/calendar/calendar";
+import { Button } from "@/components/ui/cubby-ui/button";
+import { Calendar } from "@/components/ui/cubby-ui/calendar";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/popover/popover";
+} from "@/components/ui/cubby-ui/popover";
 import { cn } from "@/lib/utils";
 
 import type { DateRange } from "react-day-picker";

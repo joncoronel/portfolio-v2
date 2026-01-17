@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 import {
   ScrollArea,
   type ScrollAreaProps,
-} from "@/registry/default/scroll-area/scroll-area";
+} from "@/components/ui/cubby-ui/scroll-area/scroll-area";
 
 const sheetContentVariants = cva(
   [

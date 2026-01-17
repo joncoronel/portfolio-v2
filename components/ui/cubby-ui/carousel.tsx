@@ -6,7 +6,7 @@ import useEmblaCarousel, {
 } from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-import { Button } from "@/registry/default/button/button";
+import { Button } from "@/components/ui/cubby-ui/button";
 
 import { cn } from "@/lib/utils";
 
