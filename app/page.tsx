@@ -18,7 +18,7 @@ export default function Home() {
                 href="https://github.com/joncoronel"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200"
+                className="text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200 touch-manipulation"
               >
                 GitHub
               </a>
@@ -26,7 +26,7 @@ export default function Home() {
                 href="https://twitter.com/joncoronel"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200"
+                className="text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200 touch-manipulation"
               >
                 Twitter
               </a>
@@ -39,16 +39,18 @@ export default function Home() {
       <section className="container mx-auto px-6 pt-32 pb-24 max-w-6xl">
         <div className="max-w-4xl">
           <motion.h1
-            initial={{ opacity: 0, y: 12, filter: "blur(4px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 4 }}
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="text-7xl sm:text-8xl lg:text-9xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50 text-balance leading-[0.95] mb-12"
           >
             Design engineer building UI&nbsp;systems
           </motion.h1>
           <motion.div
-            initial={{ opacity: 0, y: 12, filter: "blur(4px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 4 }}
             transition={{ duration: 0.5, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="flex flex-col sm:flex-row gap-8 sm:gap-16 text-lg text-zinc-600 dark:text-zinc-400"
           >
@@ -59,7 +61,7 @@ export default function Home() {
                   href="https://cubby-ui.dev"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-zinc-950 dark:text-zinc-50 underline decoration-zinc-300 dark:decoration-zinc-700 underline-offset-4 hover:decoration-zinc-950 dark:hover:decoration-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200"
+                  className="text-zinc-950 dark:text-zinc-50 underline decoration-zinc-300 dark:decoration-zinc-700 underline-offset-4 hover:decoration-zinc-950 dark:hover:decoration-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200 touch-manipulation"
                 >
                   Cubby&nbsp;UI
                 </a>
@@ -73,8 +75,9 @@ export default function Home() {
       {/* Featured Project - Cubby UI */}
       <section className="container mx-auto px-6 py-24 max-w-6xl border-t border-zinc-200 dark:border-zinc-800">
         <motion.div
-          initial={{ opacity: 0, y: 12, filter: "blur(4px)" }}
-          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 4 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="mb-16"
@@ -93,7 +96,14 @@ export default function Home() {
                 variant="primary"
                 size="sm"
                 nativeButton={false}
-                rightSection={<ArrowUpRight className="h-4 w-4" aria-hidden="true" />}
+                rightSection={
+                  <motion.div
+                    whileHover={{ scale: 1.1, x: 2, y: -2 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                  >
+                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                  </motion.div>
+                }
                 render={
                   <a
                     href="https://cubby-ui.dev"
@@ -108,7 +118,14 @@ export default function Home() {
                 variant="outline"
                 size="sm"
                 nativeButton={false}
-                leftSection={<Github className="h-4 w-4" aria-hidden="true" />}
+                leftSection={
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                  >
+                    <Github className="h-4 w-4" aria-hidden="true" />
+                  </motion.div>
+                }
                 render={
                   <a
                     href="https://github.com/joncoronel/cubby-ui"
@@ -128,6 +145,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 4 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.4, delay: 0, ease: [0.22, 1, 0.36, 1] }}
           >
@@ -142,6 +160,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 4 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.4, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
           >
@@ -160,6 +179,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 4 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.4, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           >
@@ -176,6 +196,7 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 4 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="mt-16 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 p-12 sm:p-20"
@@ -221,7 +242,7 @@ export default function Home() {
                 href="https://github.com/joncoronel"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-zinc-950 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200"
+                className="hover:text-zinc-950 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200 touch-manipulation"
               >
                 GitHub
               </a>
@@ -229,13 +250,13 @@ export default function Home() {
                 href="https://twitter.com/joncoronel"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-zinc-950 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200"
+                className="hover:text-zinc-950 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200 touch-manipulation"
               >
                 Twitter
               </a>
               <a
                 href="mailto:hello@joncoronel.com"
-                className="hover:text-zinc-950 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200"
+                className="hover:text-zinc-950 dark:hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-50 focus-visible:ring-offset-2 rounded transition-colors duration-200 touch-manipulation"
               >
                 Email
               </a>
