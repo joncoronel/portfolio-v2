@@ -181,13 +181,6 @@ export default function Home() {
           className="mt-16 rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 p-12 sm:p-20"
         >
           <div className="flex flex-col items-center justify-center text-center space-y-4">
-            <motion.div
-              whileHover={{ scale: 1.1, rotate: 5 }}
-              transition={{ type: "spring", stiffness: 400, damping: 17 }}
-              className="text-8xl cursor-default"
-            >
-              🎨
-            </motion.div>
             <div className="space-y-2">
               <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
                 60+ Components
