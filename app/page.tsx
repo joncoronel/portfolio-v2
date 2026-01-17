@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/cubby-ui/button";
 import { Card } from "@/components/ui/cubby-ui/card";
 import { Badge } from "@/components/ui/cubby-ui/badge";
