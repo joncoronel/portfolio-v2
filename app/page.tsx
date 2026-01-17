@@ -51,6 +51,7 @@ export default function Home() {
                   variant="primary"
                   size="sm"
                   nativeButton={false}
+                  rightSection={<ArrowUpRight className="h-4 w-4" />}
                   render={
                     <a
                       href="https://cubby-ui.dev"
@@ -60,12 +61,12 @@ export default function Home() {
                   }
                 >
                   Visit Site
-                  <ArrowUpRight className="h-4 w-4" />
                 </Button>
                 <Button
                   variant="outline"
                   size="sm"
                   nativeButton={false}
+                  leftSection={<Github className="h-4 w-4" />}
                   render={
                     <a
                       href="https://github.com/joncoronel/cubby-ui"
@@ -74,7 +75,6 @@ export default function Home() {
                     />
                   }
                 >
-                  <Github className="h-4 w-4" />
                   View Code
                 </Button>
               </div>
