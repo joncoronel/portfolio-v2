@@ -1,0 +1,114 @@
+CUBBY UI COMPONENTS - DEPENDENCY SUMMARY
+==========================================
+
+Total Components Fetched: 60/60
+Status: All components successfully downloaded
+Location: /home/user/portfolio-v2/components/ui/cubby-ui/
+
+UNIQUE DEPENDENCIES REQUIRED
+-----------------------------
+The following npm packages are required across all 60 Cubby UI components:
+
+1. @hugeicons/core-free-icons
+2. @hugeicons/react
+3. @icons-pack/react-simple-icons
+4. @origin-space/image-cropper
+5. class-variance-authority
+6. dayjs
+7. embla-carousel-react
+8. hast-util-to-jsx-runtime
+9. input-otp
+10. lucide-react
+11. motion
+12. react-day-picker
+13. react-resizable-panels
+14. shiki
+
+INSTALLATION COMMAND
+--------------------
+To install all required dependencies, run:
+
+npm install @hugeicons/core-free-icons @hugeicons/react @icons-pack/react-simple-icons @origin-space/image-cropper class-variance-authority dayjs embla-carousel-react hast-util-to-jsx-runtime input-otp lucide-react motion react-day-picker react-resizable-panels shiki
+
+or with yarn:
+
+yarn add @hugeicons/core-free-icons @hugeicons/react @icons-pack/react-simple-icons @origin-space/image-cropper class-variance-authority dayjs embla-carousel-react hast-util-to-jsx-runtime input-otp lucide-react motion react-day-picker react-resizable-panels shiki
+
+or with pnpm:
+
+pnpm add @hugeicons/core-free-icons @hugeicons/react @icons-pack/react-simple-icons @origin-space/image-cropper class-variance-authority dayjs embla-carousel-react hast-util-to-jsx-runtime input-otp lucide-react motion react-day-picker react-resizable-panels shiki
+
+FAILED COMPONENTS
+-----------------
+None - all 60 components were successfully fetched and saved.
+
+COMPONENTS LIST
+---------------
+1. accordion.tsx
+2. alert-dialog.tsx
+3. alert.tsx
+4. aspect-ratio.tsx
+5. autocomplete.tsx
+6. avatar.tsx
+7. badge.tsx
+8. breadcrumbs.tsx
+9. button-group.tsx
+10. button.tsx
+11. calendar.tsx
+12. card.tsx
+13. carousel.tsx
+14. checkbox-group.tsx
+15. checkbox.tsx
+16. circular-slider.tsx
+17. code-block.tsx
+18. collapsible.tsx
+19. combobox.tsx
+20. command.tsx
+21. context-menu.tsx
+22. copy-button.tsx
+23. cropper.tsx
+24. date-picker.tsx
+25. date-range-picker.tsx
+26. dialog.tsx
+27. drawer.tsx
+28. dropdown-menu.tsx
+29. fancy-button.tsx
+30. input-group.tsx
+31. input-otp.tsx
+32. input.tsx
+33. kbd.tsx
+34. label.tsx
+35. menubar.tsx
+36. meter.tsx
+37. navigation-menu.tsx
+38. pagination.tsx
+39. popover.tsx
+40. preview-card.tsx
+41. progress.tsx
+42. radio-group.tsx
+43. resizable.tsx
+44. scroll-area.tsx
+45. select.tsx
+46. separator.tsx
+47. sheet.tsx
+48. skeleton.tsx
+49. slider.tsx
+50. switch.tsx
+51. table.tsx
+52. tabs.tsx
+53. textarea.tsx
+54. timeline.tsx
+55. toast.tsx
+56. toggle-group.tsx
+57. toggle.tsx
+58. toolbar.tsx
+59. tooltip.tsx
+60. tree.tsx
+
+NOTES
+-----
+- All components are built on @base-ui/react foundation (already in your project)
+- Components use Tailwind CSS for styling
+- Some components have internal dependencies on other Cubby UI components
+  (e.g., alert-dialog uses @cubby-ui/scroll-area)
+- Generated on: 2026-01-17
