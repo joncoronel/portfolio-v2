@@ -1,0 +1,171 @@
+================================================================================
+CUBBY UI COMPONENTS - COMPLETE EXTRACTION SUMMARY
+================================================================================
+
+FINAL STATISTICS
+--------------------------------------------------------------------------------
+Total Components: 60/60 (100% success)
+Total Files Saved: 80 files
+Components with Multiple Files: 8
+Single-File Components: 52
+
+EXECUTION SUMMARY
+--------------------------------------------------------------------------------
+Initial Run: 48 components fetched, 65 files saved
+Retry Run: 12 components fetched, 15 files saved
+Status: ALL COMPONENTS SUCCESSFULLY EXTRACTED
+
+MULTI-FILE COMPONENTS (8 components, 31 files)
+--------------------------------------------------------------------------------
+circular-slider          : 5 files
+  └── circular-slider.tsx
+  └── lib/angle-calculations.ts
+  └── lib/pointer-utils.ts
+  └── lib/svg-constants.ts
+  └── lib/svg-utils.ts
+
+code-block               : 6 files
+  └── code-block.tsx
+  └── lib/shiki-shared.ts
+  └── lib/transformers/diff.ts
+  └── lib/transformers/focus.ts
+  └── lib/transformers/highlight-lines.ts
+  └── lib/transformers/utils.ts
+
+combobox                 : 3 files
+  └── combobox.tsx
+  └── hooks/use-async-combobox.ts
+  └── hooks/use-creatable-combobox.ts
+
+copy-button              : 2 files
+  └── copy-button.tsx
+  └── lib/copy-to-clipboard.ts
+
+drawer                   : 6 files
+  └── drawer.tsx
+  └── drawer.css
+  └── hooks/use-scroll-snap.ts
+  └── hooks/use-virtual-keyboard.ts
+  └── hooks/use-visual-viewport-height.ts
+  └── lib/drawer-utils.ts
+
+scroll-area              : 2 files
+  └── scroll-area.tsx
+  └── scroll-area.css
+
+toast                    : 2 files
+  └── toast.tsx
+  └── toast.css
+
+tree                     : 2 files
+  └── tree.tsx
+  └── lib/tree-utils.ts
+
+SINGLE-FILE COMPONENTS (52 components, 49 files)
+--------------------------------------------------------------------------------
+accordion                : 1 file  (accordion.tsx)
+alert                    : 1 file  (alert.tsx)
+alert-dialog             : 1 file  (alert-dialog.tsx)
+aspect-ratio             : 1 file  (aspect-ratio.tsx)
+autocomplete             : 1 file  (autocomplete.tsx)
+avatar                   : 1 file  (avatar.tsx)
+badge                    : 1 file  (badge.tsx)
+breadcrumbs              : 1 file  (breadcrumbs.tsx)
+button                   : 1 file  (button.tsx)
+button-group             : 1 file  (button-group.tsx)
+calendar                 : 1 file  (calendar.tsx)
+card                     : 1 file  (card.tsx)
+carousel                 : 1 file  (carousel.tsx)
+checkbox                 : 1 file  (checkbox.tsx)
+checkbox-group           : 1 file  (checkbox-group.tsx)
+collapsible              : 1 file  (collapsible.tsx)
+command                  : 1 file  (command.tsx)
+context-menu             : 1 file  (context-menu.tsx)
+cropper                  : 1 file  (cropper.tsx)
+date-picker              : 1 file  (date-picker.tsx)
+date-range-picker        : 1 file  (date-range-picker.tsx)
+dialog                   : 1 file  (dialog.tsx)
+dropdown-menu            : 1 file  (dropdown-menu.tsx)
+fancy-button             : 1 file  (fancy-button.tsx)
+input                    : 1 file  (input.tsx)
+input-group              : 1 file  (input-group.tsx)
+input-otp                : 1 file  (input-otp.tsx)
+kbd                      : 1 file  (kbd.tsx)
+label                    : 1 file  (label.tsx)
+menubar                  : 1 file  (menubar.tsx)
+meter                    : 1 file  (meter.tsx)
+navigation-menu          : 1 file  (navigation-menu.tsx)
+pagination               : 1 file  (pagination.tsx)
+popover                  : 1 file  (popover.tsx)
+preview-card             : 1 file  (preview-card.tsx)
+progress                 : 1 file  (progress.tsx)
+radio-group              : 1 file  (radio-group.tsx)
+resizable                : 1 file  (resizable.tsx)
+select                   : 1 file  (select.tsx)
+separator                : 1 file  (separator.tsx)
+sheet                    : 1 file  (sheet.tsx)
+skeleton                 : 1 file  (skeleton.tsx)
+slider                   : 1 file  (slider.tsx)
+switch                   : 1 file  (switch.tsx)
+table                    : 1 file  (table.tsx)
+tabs                     : 1 file  (tabs.tsx)
+textarea                 : 1 file  (textarea.tsx)
+timeline                 : 1 file  (timeline.tsx)
+toggle                   : 1 file  (toggle.tsx)
+toggle-group             : 1 file  (toggle-group.tsx)
+toolbar                  : 1 file  (toolbar.tsx)
+tooltip                  : 1 file  (tooltip.tsx)
+
+DIRECTORY STRUCTURE
+--------------------------------------------------------------------------------
+All files saved to: /home/user/portfolio-v2/components/ui/cubby-ui/
+
+Directory tree:
+├── Single file components (49 .tsx files in root)
+├── circular-slider/
+│   ├── circular-slider.tsx
+│   └── lib/ (4 .ts files)
+├── code-block/
+│   ├── code-block.tsx
+│   └── lib/
+│       ├── shiki-shared.ts
+│       └── transformers/ (4 .ts files)
+├── combobox/
+│   ├── combobox.tsx
+│   └── hooks/ (2 .ts files)
+├── copy-button/
+│   ├── copy-button.tsx
+│   └── lib/ (1 .ts file)
+├── drawer/
+│   ├── drawer.tsx
+│   ├── drawer.css
+│   ├── hooks/ (3 .ts files)
+│   └── lib/ (1 .ts file)
+├── scroll-area/
+│   ├── scroll-area.tsx
+│   └── scroll-area.css
+├── toast/
+│   ├── toast.tsx
+│   └── toast.css
+└── tree/
+    ├── tree.tsx
+    └── lib/ (1 .ts file)
+
+FILE TYPE BREAKDOWN
+--------------------------------------------------------------------------------
+TypeScript React (.tsx): 60 files
+TypeScript (.ts):        17 files
+CSS (.css):              3 files
+Total:                   80 files
+
+NOTES
+--------------------------------------------------------------------------------
+✓ All 60 components successfully fetched from https://cubby-ui.dev/r/
+✓ All files extracted from the 'files' array in each component's JSON
+✓ Directory structures properly maintained for multi-file components
+✓ Subdirectories (lib/, hooks/, transformers/) created as needed
+✓ No fetch errors remaining after retry
+✓ No save errors encountered
+
+Generated: 2026-01-17
+Location: /home/user/portfolio-v2/components/ui/cubby-ui/

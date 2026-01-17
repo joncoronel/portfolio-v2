@@ -1,0 +1,185 @@
+CUBBY UI COMPONENTS - EXTRACTION SUMMARY
+================================================================================
+
+Total components processed: 48/60
+Total files saved: 65
+Fetch errors: 12
+Save errors: 0
+
+COMPONENT FILE COUNTS
+--------------------------------------------------------------------------------
+accordion                      :   1 file(s)
+alert                          :   1 file(s)
+alert-dialog                   :   1 file(s)
+aspect-ratio                   :   1 file(s)
+autocomplete                   :   1 file(s)
+avatar                         :   1 file(s)
+badge                          :   1 file(s)
+breadcrumbs                    :   1 file(s)
+button                         :   1 file(s)
+calendar                       :   1 file(s)
+card                           :   1 file(s)
+carousel                       :   1 file(s)
+checkbox                       :   1 file(s)
+checkbox-group                 :   1 file(s)
+circular-slider                :   5 file(s)
+code-block                     :   6 file(s)
+command                        :   1 file(s)
+context-menu                   :   1 file(s)
+copy-button                    :   2 file(s)
+cropper                        :   1 file(s)
+date-picker                    :   1 file(s)
+date-range-picker              :   1 file(s)
+dialog                         :   1 file(s)
+drawer                         :   6 file(s)
+kbd                            :   1 file(s)
+label                          :   1 file(s)
+meter                          :   1 file(s)
+navigation-menu                :   1 file(s)
+pagination                     :   1 file(s)
+popover                        :   1 file(s)
+preview-card                   :   1 file(s)
+progress                       :   1 file(s)
+radio-group                    :   1 file(s)
+select                         :   1 file(s)
+sheet                          :   1 file(s)
+skeleton                       :   1 file(s)
+slider                         :   1 file(s)
+switch                         :   1 file(s)
+table                          :   1 file(s)
+tabs                           :   1 file(s)
+textarea                       :   1 file(s)
+timeline                       :   1 file(s)
+toast                          :   2 file(s)
+toggle                         :   1 file(s)
+toggle-group                   :   1 file(s)
+toolbar                        :   1 file(s)
+tooltip                        :   1 file(s)
+tree                           :   2 file(s)
+
+
+FETCH ERRORS
+--------------------------------------------------------------------------------
+button-group: HTTP Error 503: Service Unavailable
+collapsible: HTTP Error 503: Service Unavailable
+combobox: HTTP Error 503: Service Unavailable
+dropdown-menu: HTTP Error 503: Service Unavailable
+fancy-button: HTTP Error 503: Service Unavailable
+input: HTTP Error 503: Service Unavailable
+input-group: HTTP Error 503: Service Unavailable
+input-otp: HTTP Error 503: Service Unavailable
+menubar: HTTP Error 503: Service Unavailable
+resizable: HTTP Error 503: Service Unavailable
+scroll-area: HTTP Error 503: Service Unavailable
+separator: HTTP Error 503: Service Unavailable
+
+
+ALL FILES SAVED
+--------------------------------------------------------------------------------
+/home/user/portfolio-v2/components/ui/cubby-ui/accordion.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/alert-dialog.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/alert.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/aspect-ratio.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/autocomplete.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/avatar.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/badge.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/breadcrumbs.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/button.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/calendar.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/card.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/carousel.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/checkbox-group.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/checkbox.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/circular-slider/circular-slider.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/circular-slider/lib/angle-calculations.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/circular-slider/lib/pointer-utils.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/circular-slider/lib/svg-constants.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/circular-slider/lib/svg-utils.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/code-block/code-block.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/code-block/lib/shiki-shared.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/code-block/lib/transformers/diff.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/code-block/lib/transformers/focus.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/code-block/lib/transformers/highlight-lines.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/code-block/lib/transformers/utils.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/command.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/context-menu.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/copy-button/copy-button.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/copy-button/lib/copy-to-clipboard.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/cropper.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/date-picker.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/date-range-picker.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/dialog.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/drawer/drawer.css
+/home/user/portfolio-v2/components/ui/cubby-ui/drawer/drawer.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/drawer/hooks/use-scroll-snap.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/drawer/hooks/use-virtual-keyboard.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/drawer/hooks/use-visual-viewport-height.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/drawer/lib/drawer-utils.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/kbd.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/label.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/meter.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/navigation-menu.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/pagination.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/popover.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/preview-card.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/progress.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/radio-group.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/select.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/sheet.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/skeleton.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/slider.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/switch.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/table.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/tabs.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/textarea.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/timeline.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/toast/toast.css
+/home/user/portfolio-v2/components/ui/cubby-ui/toast/toast.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/toggle-group.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/toggle.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/toolbar.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/tooltip.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/tree/lib/tree-utils.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/tree/tree.tsx
+
+
+================================================================================
+RETRY ATTEMPT RESULTS
+================================================================================
+
+Successfully fetched: 12/12
+Additional files saved: 15
+
+ADDITIONAL COMPONENT FILE COUNTS
+--------------------------------------------------------------------------------
+button-group                   :   1 file(s)
+collapsible                    :   1 file(s)
+combobox                       :   3 file(s)
+dropdown-menu                  :   1 file(s)
+fancy-button                   :   1 file(s)
+input                          :   1 file(s)
+input-group                    :   1 file(s)
+input-otp                      :   1 file(s)
+menubar                        :   1 file(s)
+resizable                      :   1 file(s)
+scroll-area                    :   2 file(s)
+separator                      :   1 file(s)
+
+
+ADDITIONAL FILES SAVED
+--------------------------------------------------------------------------------
+/home/user/portfolio-v2/components/ui/cubby-ui/button-group.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/collapsible.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/combobox/combobox.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/combobox/hooks/use-async-combobox.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/combobox/hooks/use-creatable-combobox.ts
+/home/user/portfolio-v2/components/ui/cubby-ui/dropdown-menu.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/fancy-button.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/input-group.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/input-otp.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/input.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/menubar.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/resizable.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/scroll-area/scroll-area.css
+/home/user/portfolio-v2/components/ui/cubby-ui/scroll-area/scroll-area.tsx
+/home/user/portfolio-v2/components/ui/cubby-ui/separator.tsx
