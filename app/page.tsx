@@ -47,26 +47,36 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap gap-3 pt-2">
-                <a
-                  href="https://cubby-ui.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Button
+                  variant="primary"
+                  size="sm"
+                  nativeButton={false}
+                  render={
+                    <a
+                      href="https://cubby-ui.dev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  }
                 >
-                  <Button variant="primary" size="sm">
-                    Visit Site
-                    <ArrowUpRight className="h-4 w-4" />
-                  </Button>
-                </a>
-                <a
-                  href="https://github.com/joncoronel/cubby-ui"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  Visit Site
+                  <ArrowUpRight className="h-4 w-4" />
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  nativeButton={false}
+                  render={
+                    <a
+                      href="https://github.com/joncoronel/cubby-ui"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  }
                 >
-                  <Button variant="outline" size="sm">
-                    <Github className="h-4 w-4" />
-                    View Code
-                  </Button>
-                </a>
+                  <Github className="h-4 w-4" />
+                  View Code
+                </Button>
               </div>
             </div>
           </Card>
